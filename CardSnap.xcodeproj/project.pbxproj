@@ -6,246 +6,133 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0014EA2571F0EAC03B29DDB1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD3EE56F56A0D0E8D0038C /* SettingsView.swift */; };
-		0F7024E2D18FD021F1148062 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399E1B4E07A5FEA3E838EC /* AvatarView.swift */; };
-		22C27AEB871C2F6D9008E38E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F781C8AFBE787F7DE0A1DAF /* Color+Extensions.swift */; };
-		24FD18AA51FD162619BB759D /* OCRProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE713442A262ACAA44BE3000 /* OCRProcessor.swift */; };
-		2ABB82E1F944FF4E6A681A0F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265D9C6DC77F5D72CD51E35 /* View+Extensions.swift */; };
-		2AEAE6489C140F7FCC75EEC1 /* ContactActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1657CEA9F6B18440B8501 /* ContactActionButton.swift */; };
-		385617BC4B4E7D4BB68178F0 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2611CF55749ED0425B90DD5C /* CardDetailView.swift */; };
-		3E3033DA385B802E6C5044C4 /* CardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204711A1F0D3636B389E6620 /* CardRowView.swift */; };
-		63A181FA5500F60B8161B2C0 /* GradientCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A335E3A10BFDC7F11E3C7 /* GradientCardView.swift */; };
-		95156EC26EE2AD9227E73C98 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB397BFA478535B594C046 /* HomeView.swift */; };
-		B47D9471D88019BAD33FDB48 /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD85C9FB6DD72D862FDA1285 /* EditCardView.swift */; };
-		B6B57A88FF2DFC41C72C24A2 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4CD109C428D765A2B519CA /* EmptyStateView.swift */; };
-		C4347E6D4EE88CE2EB8F85E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5FE1DFF493E347F0DB907 /* ContentView.swift */; };
-		CF9BAF1714482967CBAE1591 /* BusinessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA19CC2BF954743161B46B /* BusinessCard.swift */; };
-		D6DA273890433887A1820894 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C88BB88F4800AB6BB97A4 /* FavoritesView.swift */; };
-		E3444F8A388FC40A654C2111 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD244C832A3A67FC0475BC2A /* ScanView.swift */; };
-		F0350EC757CC9B7D3FC22F74 /* CardSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597907CCF2AB393A2BA3BB3F /* CardSnapApp.swift */; };
-		F984AD0DEE78FCB926DF1DBC /* AnimatedGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197A73BE81E07F221684BE5 /* AnimatedGradientBackground.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		104A335E3A10BFDC7F11E3C7 /* GradientCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCardView.swift; sourceTree = "<group>"; };
-		204711A1F0D3636B389E6620 /* CardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRowView.swift; sourceTree = "<group>"; };
-		23BB397BFA478535B594C046 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		2611CF55749ED0425B90DD5C /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
-		3197A73BE81E07F221684BE5 /* AnimatedGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientBackground.swift; sourceTree = "<group>"; };
-		3265D9C6DC77F5D72CD51E35 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
-		37FC00BDEBA21003ADA8B16D /* CardSnap.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CardSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		597907CCF2AB393A2BA3BB3F /* CardSnapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSnapApp.swift; sourceTree = "<group>"; };
-		742C88BB88F4800AB6BB97A4 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
-		7B4CD109C428D765A2B519CA /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
-		9F399E1B4E07A5FEA3E838EC /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		9F781C8AFBE787F7DE0A1DAF /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
-		A9CD3EE56F56A0D0E8D0038C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		BD85C9FB6DD72D862FDA1285 /* EditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardView.swift; sourceTree = "<group>"; };
-		C4F5FE1DFF493E347F0DB907 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CBB1657CEA9F6B18440B8501 /* ContactActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactActionButton.swift; sourceTree = "<group>"; };
-		CD244C832A3A67FC0475BC2A /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
-		EE713442A262ACAA44BE3000 /* OCRProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRProcessor.swift; sourceTree = "<group>"; };
-		F7BA19CC2BF954743161B46B /* BusinessCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCard.swift; sourceTree = "<group>"; };
+		B6579BD22F96EAA800F48A0C /* CardSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXGroup section */
-		00184ABC3292605D1C579A00 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37FC00BDEBA21003ADA8B16D /* CardSnap.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		01557613998C2857E9F02482 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				F7BA19CC2BF954743161B46B /* BusinessCard.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		1B098E2F507D11084094EB7A /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				3197A73BE81E07F221684BE5 /* AnimatedGradientBackground.swift */,
-				9F399E1B4E07A5FEA3E838EC /* AvatarView.swift */,
-				CBB1657CEA9F6B18440B8501 /* ContactActionButton.swift */,
-				7B4CD109C428D765A2B519CA /* EmptyStateView.swift */,
-				104A335E3A10BFDC7F11E3C7 /* GradientCardView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		523E417C7CCD64026BF49020 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				EE713442A262ACAA44BE3000 /* OCRProcessor.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		68FE006944AB22A1B208CA4A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				C4F5FE1DFF493E347F0DB907 /* ContentView.swift */,
-				1B098E2F507D11084094EB7A /* Components */,
-				EC767EF34835779FBEF46308 /* Detail */,
-				B99E888BDA33B527FD3AC035 /* Home */,
-				DAB8E8F346EDE74223468BD9 /* Scan */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		6F40DCC0DE8094A4276367F6 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9F781C8AFBE787F7DE0A1DAF /* Color+Extensions.swift */,
-				3265D9C6DC77F5D72CD51E35 /* View+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		7AF4E421240147F3CC526C6B /* CardSnap */ = {
-			isa = PBXGroup;
-			children = (
-				597907CCF2AB393A2BA3BB3F /* CardSnapApp.swift */,
-				6F40DCC0DE8094A4276367F6 /* Extensions */,
-				01557613998C2857E9F02482 /* Models */,
-				523E417C7CCD64026BF49020 /* ViewModels */,
-				68FE006944AB22A1B208CA4A /* Views */,
-			);
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B6579BD42F96EAA800F48A0C /* CardSnap */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CardSnap;
 			sourceTree = "<group>";
 		};
-		B99E888BDA33B527FD3AC035 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				204711A1F0D3636B389E6620 /* CardRowView.swift */,
-				742C88BB88F4800AB6BB97A4 /* FavoritesView.swift */,
-				23BB397BFA478535B594C046 /* HomeView.swift */,
-				A9CD3EE56F56A0D0E8D0038C /* SettingsView.swift */,
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6579BCF2F96EAA800F48A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
-			path = Home;
-			sourceTree = "<group>";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAB8E8F346EDE74223468BD9 /* Scan */ = {
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6579BC92F96EAA700F48A0C = {
 			isa = PBXGroup;
 			children = (
-				CD244C832A3A67FC0475BC2A /* ScanView.swift */,
-			);
-			path = Scan;
-			sourceTree = "<group>";
-		};
-		E3B24B9590EF145AD78953CE = {
-			isa = PBXGroup;
-			children = (
-				7AF4E421240147F3CC526C6B /* CardSnap */,
-				00184ABC3292605D1C579A00 /* Products */,
+				B6579BD42F96EAA800F48A0C /* CardSnap */,
+				B6579BD32F96EAA800F48A0C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC767EF34835779FBEF46308 /* Detail */ = {
+		B6579BD32F96EAA800F48A0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2611CF55749ED0425B90DD5C /* CardDetailView.swift */,
-				BD85C9FB6DD72D862FDA1285 /* EditCardView.swift */,
+				B6579BD22F96EAA800F48A0C /* CardSnap.app */,
 			);
-			path = Detail;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57FF1764A5BD8A56997BBF47 /* CardSnap */ = {
+		B6579BD12F96EAA800F48A0C /* CardSnap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BBE3F70CBB873C83F91A08E /* Build configuration list for PBXNativeTarget "CardSnap" */;
+			buildConfigurationList = B6579BDF2F96EAAA00F48A0C /* Build configuration list for PBXNativeTarget "CardSnap" */;
 			buildPhases = (
-				456400E5E2C539D5D35DE3B4 /* Sources */,
+				B6579BCE2F96EAA800F48A0C /* Sources */,
+				B6579BCF2F96EAA800F48A0C /* Frameworks */,
+				B6579BD02F96EAA800F48A0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				B6579BD42F96EAA800F48A0C /* CardSnap */,
+			);
 			name = CardSnap;
 			packageProductDependencies = (
 			);
 			productName = CardSnap;
-			productReference = 37FC00BDEBA21003ADA8B16D /* CardSnap.app */;
+			productReference = B6579BD22F96EAA800F48A0C /* CardSnap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F8CC5D80C8FD3FDFF745FA78 /* Project object */ = {
+		B6579BCA2F96EAA700F48A0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1500;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
-					57FF1764A5BD8A56997BBF47 = {
-						DevelopmentTeam = "";
-						ProvisioningStyle = Automatic;
+					B6579BD12F96EAA800F48A0C = {
+						CreatedOnToolsVersion = 26.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 9551DB2AD0F5C3B3ADA19D7F /* Build configuration list for PBXProject "CardSnap" */;
+			buildConfigurationList = B6579BCD2F96EAA700F48A0C /* Build configuration list for PBXProject "CardSnap" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
 				en,
+				Base,
 			);
-			mainGroup = E3B24B9590EF145AD78953CE;
+			mainGroup = B6579BC92F96EAA700F48A0C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 00184ABC3292605D1C579A00 /* Products */;
+			productRefGroup = B6579BD32F96EAA800F48A0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57FF1764A5BD8A56997BBF47 /* CardSnap */,
+				B6579BD12F96EAA800F48A0C /* CardSnap */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		B6579BD02F96EAA800F48A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		456400E5E2C539D5D35DE3B4 /* Sources */ = {
+		B6579BCE2F96EAA800F48A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F984AD0DEE78FCB926DF1DBC /* AnimatedGradientBackground.swift in Sources */,
-				0F7024E2D18FD021F1148062 /* AvatarView.swift in Sources */,
-				CF9BAF1714482967CBAE1591 /* BusinessCard.swift in Sources */,
-				385617BC4B4E7D4BB68178F0 /* CardDetailView.swift in Sources */,
-				3E3033DA385B802E6C5044C4 /* CardRowView.swift in Sources */,
-				F0350EC757CC9B7D3FC22F74 /* CardSnapApp.swift in Sources */,
-				22C27AEB871C2F6D9008E38E /* Color+Extensions.swift in Sources */,
-				2AEAE6489C140F7FCC75EEC1 /* ContactActionButton.swift in Sources */,
-				C4347E6D4EE88CE2EB8F85E7 /* ContentView.swift in Sources */,
-				B47D9471D88019BAD33FDB48 /* EditCardView.swift in Sources */,
-				B6B57A88FF2DFC41C72C24A2 /* EmptyStateView.swift in Sources */,
-				D6DA273890433887A1820894 /* FavoritesView.swift in Sources */,
-				63A181FA5500F60B8161B2C0 /* GradientCardView.swift in Sources */,
-				95156EC26EE2AD9227E73C98 /* HomeView.swift in Sources */,
-				24FD18AA51FD162619BB759D /* OCRProcessor.swift in Sources */,
-				E3444F8A388FC40A654C2111 /* ScanView.swift in Sources */,
-				0014EA2571F0EAC03B29DDB1 /* SettingsView.swift in Sources */,
-				2ABB82E1F944FF4E6A681A0F /* View+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0096FD5D65367B322FAA00BD /* Debug */ = {
+		B6579BDD2F96EAAA00F48A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -273,16 +160,16 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
 					"DEBUG=1",
+					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -290,27 +177,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		04BFB3622D00F047E3629B05 /* Release */ = {
+		B6579BDE2F96EAAA00F48A0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -339,9 +224,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -349,82 +234,106 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		33439947E5E8B21E6DFC5DFD /* Release */ = {
+		B6579BE02F96EAAA00F48A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CardSnap/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZJ6ZGGD6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CardSnap uses the camera to scan business cards.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "CardSnap saves scanned business cards to your Contacts.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cardsnap.app;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9959B71FE84936DA7BB3F515 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CardSnap/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cardsnap.app;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sejal.CardSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
+		B6579BE12F96EAAA00F48A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZJ6ZGGD6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CardSnap uses the camera to scan business cards.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "CardSnap saves scanned business cards to your Contacts.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sejal.CardSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BBE3F70CBB873C83F91A08E /* Build configuration list for PBXNativeTarget "CardSnap" */ = {
+		B6579BCD2F96EAA700F48A0C /* Build configuration list for PBXProject "CardSnap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9959B71FE84936DA7BB3F515 /* Debug */,
-				33439947E5E8B21E6DFC5DFD /* Release */,
+				B6579BDD2F96EAAA00F48A0C /* Debug */,
+				B6579BDE2F96EAAA00F48A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		9551DB2AD0F5C3B3ADA19D7F /* Build configuration list for PBXProject "CardSnap" */ = {
+		B6579BDF2F96EAAA00F48A0C /* Build configuration list for PBXNativeTarget "CardSnap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0096FD5D65367B322FAA00BD /* Debug */,
-				04BFB3622D00F047E3629B05 /* Release */,
+				B6579BE02F96EAAA00F48A0C /* Debug */,
+				B6579BE12F96EAAA00F48A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F8CC5D80C8FD3FDFF745FA78 /* Project object */;
+	rootObject = B6579BCA2F96EAA700F48A0C /* Project object */;
 }

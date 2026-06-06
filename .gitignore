@@ -1,5 +1,5 @@
 # Xcode
-*.xcworkspace
+*.xcuserstate
 xcuserdata/
 *.xccheckout
 *.moved-aside
@@ -9,25 +9,20 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
-# Swift Package Manager
-.build/
-.swiftpm/
-
-# CocoaPods
-Pods/
-Podfile.lock
-
-# Fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+# Build
+build/
+*.o
+*.d
 
 # macOS
 .DS_Store
-*.swp
 .AppleDouble
 .LSOverride
 
-# Xcode build
-build/
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# SPM
+.build/
+*.resolved

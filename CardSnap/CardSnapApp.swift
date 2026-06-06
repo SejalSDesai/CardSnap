@@ -1,23 +1,27 @@
-// CardSnapApp.swift
-// CardSnap — App Entry Point
-
 import SwiftUI
 import SwiftData
 
 @main
 struct CardSnapApp: App {
-    init() {
-        // Force dark appearance at UIKit level as well
-        UINavigationBar.appearance().barStyle = .black
-        UITabBar.appearance().barStyle = .black
-    }
+    var sharedModelContainer: ModelContainer = {
+        let schema = Schema([BusinessCard.self])
+        let storeURL = URL.applicationSupportDirectory.appending(path: "CardSnap.store")
+        let config = ModelConfiguration(schema: schema, url: storeURL)
+        do {
+            return try ModelContainer(for: schema, configurations: [config])
+        } catch {
+            // Schema changed (e.g. renamed model) — wipe and start fresh
+            try? FileManager.default.removeItem(at: storeURL)
+            do {
+                return try ModelContainer(for: schema, configurations: [config])
+            } catch {
+                fatalError("Could not create ModelContainer: \(error)")
+            }
+        }
+    }()
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .preferredColorScheme(.dark)
-                .tint(Color(hex: "#667EEA"))
-        }
-        .modelContainer(for: BusinessCard.self)
+        WindowGroup { ContentView() }
+            .modelContainer(sharedModelContainer)
     }
 }
